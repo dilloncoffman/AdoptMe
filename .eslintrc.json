@@ -1,0 +1,17 @@
+{
+  "extends": ["eslint:recommended", "prettier", "prettier/react"],
+  "plugins": [],
+  "parserOptions": {
+    "ecmaVersion": 2018, // ES6 async/await
+    "sourceType": "module", // import/export ES modules
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    // Defining global variables
+    "es6": true,
+    "browser": true, // setTimeout, document, window
+    "node": true // http/require
+  }
+}
